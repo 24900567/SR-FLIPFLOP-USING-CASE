@@ -12,22 +12,24 @@ Quartus prime
 
 SR Flip-Flop SR flip-flop operates with only positive clock transitions or negative clock transitions. Whereas, SR latch operates with enable signal. The circuit diagram of SR flip-flop is shown in the following figure.
 
-![image](https://github.com/24900567/SR-FLIPFLOP-USING-CASE/assets/154305477/0f710028-ad52-4d3e-9276-8714cf023a25)
+![Screenshot 2024-12-17 112319](https://github.com/user-attachments/assets/c9123cd1-3f0a-437a-b53c-98af7a9cac28)
+
 
  
 This circuit has two inputs S & R and two outputs Qtt & Qtt’. The operation of SR flipflop is similar to SR Latch. But, this flip-flop affects the outputs only when positive transition of the clock signal is applied instead of active enable. The following table shows the state table of SR flip-flop.
 
-![image](https://github.com/24900567/SR-FLIPFLOP-USING-CASE/assets/154305477/dabfc4f4-87e3-4cbc-9472-f89ee1b5ed30)
+![Screenshot 2024-12-17 112326](https://github.com/user-attachments/assets/1be032a5-8d22-48ec-8f4c-bf6da3b7ef94)
+
 
  
 Here, Qtt & Qt+1t+1 are present state & next state respectively. So, SR flip-flop can be used for one of these three functions such as Hold, Reset & Set based on the input conditions, when positive transition of clock signal is applied. The following table shows the characteristic table of SR flip-flop. Present Inputs Present State Next State
 
-![image](https://github.com/24900567/SR-FLIPFLOP-USING-CASE/assets/154305477/dd90d16c-aec5-4290-a586-e2346b1e9eb5)
+![Screenshot 2024-12-17 112336](https://github.com/user-attachments/assets/cf963975-b3f0-49e8-bfb7-84fe25d40b9b)
 
  
 By using three variable K-Map, we can get the simplified expression for next state, Qt+1t+1. The three variable K-Map for next state, Qt+1t+1 is shown in the following figure.
 
-![image](https://github.com/24900567/SR-FLIPFLOP-USING-CASE/assets/154305477/473efad6-d70b-4ca7-aeb7-898bbfca319f)
+![Screenshot 2024-12-17 112342](https://github.com/user-attachments/assets/48bec0cc-b987-4288-b7d2-2fc7207a9a11)
 
  
 The maximum possible groupings of adjacent ones are already shown in the figure. Therefore, the simplified expression for next state Qt+1t+1 is Q(t+1)=S+R′Q(t)Q(t+1)=S+R′Q(t)
